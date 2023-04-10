@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  height: 7vh;
+}
+.nav-leftside {
+  display: flex;
+  align-items: center;
+}
+.nav-rightside {
+  display: flex;
+  align-items: center;
+}
+
+.nav-leftside li {
+  margin: 0 15px;
+}
+.nav-rightside li {
+  margin: 0 15px;
+}
+.fa-ellipsis {
+  margin: 0 15px;
+}
+.nav-rightside button {
+  margin: 0 15px;
+  background-color: blue;
+  padding: 8px 18px;
+  color: white;
+  font-weight: bold;
+}
+.google-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 60px;
+}
+h2 {
+  display: flex;
+  font-weight: 600;
+}
