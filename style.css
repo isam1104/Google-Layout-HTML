@@ -43,8 +43,46 @@ nav {
   align-items: center;
   height: 60vh;
   font-size: 60px;
+  flex-direction: column;
 }
 h2 {
   display: flex;
   font-weight: 600;
+}
+input {
+  height: 35px;
+  width: 550px;
+  border-radius: 50px;
+  border-color: lightgray;
+  margin-top: 40px;
+  border-width: 0.3px 1px 2px;
+  padding: 0 40px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+.fa-magnifying-glass {
+  font-size: 18px;
+  position: relative;
+  left: 34px;
+  top: 20px;
+}
+.fa-youtube {
+  font-size: 18px;
+  position: relative;
+  top: 20px;
+  right: 35px;
+}
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+.btn-container button {
+  height: 35px;
+  width: 120px;
+  margin-top: 25px;
+  border: none;
+  background-color: whitesmoke;
+  color: black;
 }
